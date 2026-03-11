@@ -6,13 +6,11 @@ import { SignInPage } from "./Pages/SignInPage/SignInPage";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="/analitics" element={<AnaliticsPage />} />
-        <Route path="/sign-in" element={<SignInPage />} />
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/analitics" element={<AnaliticsPage />} />
+      <Route path="/sign-in" element={<SignInPage />} />
+    </Routes>
   );
 }
 

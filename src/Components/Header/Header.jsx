@@ -1,3 +1,5 @@
+import { Head, HeaderLogo } from "./Header.styled";
+
 export function Header() {
   return (
     <>
@@ -21,9 +23,9 @@ export function Header() {
 </svg>
 '
         />
-        <Costs />
-        <Analitics />
-        <Exit />
+        {/* <Costs />
+        <Analitics /> */}
+        {/* <Exit /> */}
       </Head>
     </>
   );
